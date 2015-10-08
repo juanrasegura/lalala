@@ -1,9 +1,8 @@
 #!/usr/bin/env python
 #-*- coding: utf-8 -*-
-def decision(a,b):
-	if a > b:
-		salida = "es mayor que b"
+def decision(n1,n2):
+	if n1 > n2:
+		salida = n1
 	else:
-		salida = "b es mayor que a y lo subo a github"
-		salida = salida + "o igual"
+		salida = n2
 	return salida
