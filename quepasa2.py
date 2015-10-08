@@ -5,4 +5,5 @@ def decision(n1,n2):
 		salida = True
 	else:
 		salida = False
+	print " voy a hacer un pull"
 	return salida
